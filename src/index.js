@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.js'
-import CardList from './CardList.js';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 
