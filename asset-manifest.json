@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Robo-Personas/static/css/main.2abe4a92.chunk.css",
+    "main.js": "/Robo-Personas/static/js/main.0e1af587.chunk.js",
+    "main.js.map": "/Robo-Personas/static/js/main.0e1af587.chunk.js.map",
+    "runtime-main.js": "/Robo-Personas/static/js/runtime-main.d3be6b24.js",
+    "runtime-main.js.map": "/Robo-Personas/static/js/runtime-main.d3be6b24.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/Robo-Personas/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.7a9ef991.chunk.js": "/Robo-Personas/static/js/2.7a9ef991.chunk.js",
+    "static/js/2.7a9ef991.chunk.js.map": "/Robo-Personas/static/js/2.7a9ef991.chunk.js.map",
+    "index.html": "/Robo-Personas/index.html",
+    "precache-manifest.b9663d1dcc14d99692ea0914bb4c3b98.js": "/Robo-Personas/precache-manifest.b9663d1dcc14d99692ea0914bb4c3b98.js",
+    "service-worker.js": "/Robo-Personas/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/Robo-Personas/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.2abe4a92.chunk.css.map": "/Robo-Personas/static/css/main.2abe4a92.chunk.css.map",
+    "static/js/2.7a9ef991.chunk.js.LICENSE.txt": "/Robo-Personas/static/js/2.7a9ef991.chunk.js.LICENSE.txt",
+    "static/media/IndieFlower-Regular.ttf": "/Robo-Personas/static/media/IndieFlower-Regular.0841af95.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3be6b24.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.7a9ef991.chunk.js",
+    "static/css/main.2abe4a92.chunk.css",
+    "static/js/main.0e1af587.chunk.js"
+  ]
+}
