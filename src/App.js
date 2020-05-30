@@ -7,9 +7,15 @@ class App extends Component {
     constructor() {
         super()
         this.state = {
-            personas: personas,
+            personas: [],
             searchfield:''
         }
+    }
+
+    componentDidMount() {
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response => response.json())
+        .then(users=> this.setState({personas: users}))
     }
 
     onSearchChange = (event) => {
@@ -20,13 +26,17 @@ class App extends Component {
         const filteredPersonas = this.state.personas.filter(personas => {
             return personas.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
         })
-        return(
-            <div className='tc'>
-                <h1>Personas</h1>
-                <SearchBox searchChange={this.onSearchChange}/>
-                <CardList personas = {filteredPersonas} />
-            </div>
-        )
+        if(this.state.personas.length ===0){
+            return <h1>Loading</h1>
+        }else{
+            return(
+                <div className='tc'>
+                    <h1>Personas</h1>
+                    <SearchBox searchChange={this.onSearchChange}/>
+                    <CardList personas = {filteredPersonas} />
+                </div>
+            )
+        }
     }
 }
 
