@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63b40d5aea98060a3ce6fbeecb0a74d4",
+    "revision": "0878afd28279f9ef3548e8a394bf5cfd",
     "url": "/Robo-Personas/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Robo-Personas/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "ed6b4331841b6b650198",
-    "url": "/Robo-Personas/static/css/main.2abe4a92.chunk.css"
+    "revision": "4d300142dc0f0591e450",
+    "url": "/Robo-Personas/static/css/main.c3e0b8eb.chunk.css"
   },
   {
     "revision": "c2c83df876816cfe5cf1",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Robo-Personas/static/js/2.7a9ef991.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed6b4331841b6b650198",
-    "url": "/Robo-Personas/static/js/main.0e1af587.chunk.js"
+    "revision": "4d300142dc0f0591e450",
+    "url": "/Robo-Personas/static/js/main.5390958c.chunk.js"
   },
   {
     "revision": "fdbde5940592dd4be16d",
